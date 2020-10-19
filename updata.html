@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上传你的html文件</title>
+</head>
+
+<body>
+    <h3>文件上传：</h3>
+    <form action="/api/createPDF" method="post" enctype="multipart/form-data">
+        患者姓名
+        <input type="text" name="username" /> <br/>报告日期
+        <input type="text" name="reportDate" /><br/>
+        <input type="file" name="content" /><br/><br/>
+        <input type="submit" value="上传文件" />
+    </form>
+</body>
+
+</html>

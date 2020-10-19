@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lijiale qq:504325986",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "multer": "^1.4.2",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
 }

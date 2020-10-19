@@ -1,0 +1,3 @@
+##这里放不希望被git追踪的文件或文件夹
+/node_modules/
+/tmp/
